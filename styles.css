@@ -1,0 +1,128 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+
+.container {
+    background-color: #fff;
+    width: 350px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+
+h1 {
+    color: #ff0066;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+
+.box {
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 15px;
+    transition: 0.3s ease;
+    position: relative;
+    background-color: #fff;
+}
+
+
+.box h2 {
+    font-size: 18px;
+    color: #333;
+    margin: 0;
+}
+
+.box p {
+    margin: 10px 0;
+    color: #666;
+}
+
+.box.active {
+    background-color: #f0f0f05e;
+    border-color: #ff0066;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transform: scale(1.05);
+}
+
+
+.tag {
+    font-size: 12px;
+    color: #999;
+}
+
+
+.most-popular {
+    position: absolute;
+    top: -10px;
+    right: 10px;
+    background-color: #ff0066;
+    color: white;
+    padding: 3px 8px;
+    font-size: 12px;
+    border-radius: 5px;
+}
+
+
+.options {
+    display: none;
+    margin-top: 10px;
+}
+
+
+.expanded .options {
+    display: block;
+}
+
+
+select {
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+
+.cart-section {
+    margin-top: 20px;
+}
+
+
+.add-to-cart {
+    background-color: #ff0066; 
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+}
+
+.add-to-cart:hover {
+    background-color: #e6005c;
+}
+
+
+.free-delivery {
+    color: #ff0066;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.hidden{
+    display: none
+}
